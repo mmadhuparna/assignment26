@@ -1,0 +1,101 @@
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.blue {
+  background: blue;
+  color: white;
+  text-align: left;
+  
+  
+}
+.purple {
+  color: purple;
+  padding-left: 15px;
+  height: 50px;
+  
+  
+  
+}
+.statusGroup {
+  padding: 5px;
+  padding-left: 15px;
+  
+}
+.statusGroup span {
+  display: inline;
+}
+.green {
+  background: green;
+  color: white;
+}
+.red{background: red;
+  color: white;}
+.price {
+   padding: 10px;
+}
+
+form{
+  padding: 15px;
+  border-radius: 5px;
+  background:rgb(218, 214, 214);
+  
+}
+h1{
+  text-align: center;
+}
+.styl{
+  margin-top: 50px;
+  border: 1px solid blue;
+  height: 250px;
+  padding-left: 0;
+  padding-right: 0;
+  
+}
+tr{
+  background: rgb(205, 160, 247);
+  margin-bottom: 10px;
+}
+td{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.btn-danger{
+  
+  font-size: 12px;
+  margin-left:15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+tr.row{
+  margin-left: 0
+}
